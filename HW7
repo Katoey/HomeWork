@@ -1,0 +1,25 @@
+print ("Калькулятор")
+print ("Выберите действия \n 1)+ \n 2)- \n 3)* \n 4)/ ")
+deistvie = int(input())
+if deistvie == 1:
+    num1 = float(input("Введите первое число: "))
+    num2 = float(input("Введите второе число: "))
+    rez = num1 + num2
+    print ("Ваш результат: ", rez)
+elif deistvie == 2:
+    num1 = float(input("Введите первое число: "))
+    num2 = float(input("Введите второе число: "))
+    rez = num1 - num2
+    print ("Ваш результат: ", rez)
+elif deistvie == 3:
+    num1 = float(input("Введите первое число: "))
+    num2 = float(input("Введите второе число: "))
+    rez = num1 * num2
+    print ("Ваш результат: ", rez)
+elif deistvie == 4:
+    num1 = float(input("Введите первое число: "))
+    num2 = float(input("Введите второе число: "))
+    rez = num1 / num2
+    print ("Ваш результат: ", rez)
+else:
+    print ("Такого числа нету введите заного ")
