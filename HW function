@@ -1,0 +1,38 @@
+#####################################################
+Задание 
+Читаем
+- https://pythonworld.ru/tipy-dannyx-v-python/vse-o-funkciyax-i-ix-argumentax.html
+https://www.internet-technologies.ru/articles/kak-opredelyat-funkcii-v-python-3.html 
+
+Задание
+
+Создайте функции которые:
+умножают два числа
+складывают два числа
+делят числа между собой (НО!!! если делитель больше за делимое, проверяем внутри функции через if) тогда выводим предупреждение, если же все ок, делим
+
+
+#####################################################
+def delitel (null, null2):
+    if (null < null2):
+        print('Делитель больше я не могу поделить')
+    else:
+        itog = null / null2
+        print(itog)
+
+delitel(10,2)
+
+
+######################################################
+# def fun1 (null1, null2):
+#     itog = null1 * null2
+#     print(itog)
+
+# fun1(4,5)
+# 
+#####################################################
+# def fun2 (null1, null2):
+#     itog1 = null1 + null2
+#     print (itog1)
+
+# fun2 (5,4)
